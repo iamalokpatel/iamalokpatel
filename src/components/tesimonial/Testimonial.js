@@ -95,12 +95,12 @@ const Testimonial = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="WHAT CLIENTS SAY" des="Testimonial" />
       </div>
-      <div className="max-w-6xl mx-auto shadowOne ">
+      <div className="max-w-6xl mx-auto ">
         {/* ================ Slider One ================== */}
         <Slider {...settings}>
           <div className=" w-full">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
-              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+              <div className=" w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
                   src={testimonialOne}

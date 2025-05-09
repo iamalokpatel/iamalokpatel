@@ -29,6 +29,85 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Theme Customizations */
+
+/* Custom Screen Sizes */
+@media (max-width: 320px) {
+  /* xs: 320px */
+}
+
+@media (max-width: 375px) {
+  /* sm: 375px */
+}
+
+@media (max-width: 500px) {
+  /* sml: 500px */
+}
+
+@media (max-width: 667px) {
+  /* md: 667px */
+}
+
+@media (max-width: 768px) {
+  /* mdl: 768px */
+}
+
+@media (max-width: 960px) {
+  /* lg: 960px */
+}
+
+@media (max-width: 1024px) {
+  /* lgl: 1024px */
+}
+
+@media (max-width: 1280px) {
+  /* xl: 1280px */
+}
+
+/* Custom Fonts */
+body {
+  font-family: "Poppins", sans-serif; /* bodyFont */
+}
+
+/* Title Font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif; /* titleFont */
+}
+
+/* Custom Colors */
+body {
+  background-color: #212428; /* bodyColor */
+  color: #c4cfde; /* lightText */
+}
+
+.box-bg {
+  background: linear-gradient(145deg, #1e2024, #23272b); /* boxBg */
+}
+
+.text-design-color {
+  color: #ff014f; /* designColor */
+}
+
+/* Custom Box Shadow */
+.shadow-shadowOne {
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e; /* shadowOne */
+}
+
+/* Example for applying custom styles globally */
+.custom-element {
+  background-color: #212428; /* bodyColor */
+  color: #c4cfde; /* lightText */
+  font-family: "Poppins", sans-serif; /* bodyFont */
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e; /* shadowOne */
+}
+
+/*   End of Code*/
+
 @layer components {
   .bannerIcon {
     width: 4rem; /* 16px equivalent in Tailwind */
