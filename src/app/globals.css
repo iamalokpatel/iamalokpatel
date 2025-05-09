@@ -26,6 +26,10 @@ body {
   color: #c4cfde;
 }
 
+.bg-bodyColor {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+}
+
 .from-bodyColor {
   background: linear-gradient(145deg, #1e2024, #23272b);
 }
