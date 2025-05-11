@@ -4,7 +4,6 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
@@ -14,7 +13,13 @@ const Navbar = () => {
     <div className="w-full h-24 sticky top-0 z-50 bg-[#212428] mx-auto flex justify-between items-center font-[Montserrat] border-b border-gray-600 px-4">
       {/* Logo */}
       <div>
-        <img src={logo} alt="logo" />
+        <img
+          src="/images/logo.png"
+          width={70}
+          height={70}
+          alt="logo"
+          className="rounded-full"
+        />
       </div>
 
       {/* Nav Links - Show only on medium and up */}

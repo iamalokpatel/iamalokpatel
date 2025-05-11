@@ -12,10 +12,10 @@ import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+    words: ["Web Developer.", "Frontend Developer.", "Backend Developer."],
     loop: true,
-    typeSpeed: 20,
-    deleteSpeed: 10,
+    typeSpeed: 40,
+    deleteSpeed: 20,
     delaySpeed: 2000,
   });
   return (
@@ -23,7 +23,8 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm{"  "}
+          <span className="text-designColor capitalize">Alok Patel</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -45,7 +46,7 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://github.com/iamalokpatel" target="blank">
               <span className="bannerIcon">
                 <FaGithub />
               </span>
@@ -60,7 +61,7 @@ const LeftBanner = () => {
                 <FaTwitter />
               </span>
             </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://www.linkedin.com/in/iamalokpatel" target="blank">
               <span className="bannerIcon">
                 <FaLinkedinIn />
               </span>
