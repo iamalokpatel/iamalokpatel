@@ -17,19 +17,19 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
+          title="Airbnb Clone"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src="/images/projects/projectOne.png"
         />
         <ProjectsCard
-          title="E-commerce Website"
+          title="Spotify UI"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src="/images/projects/projectThree.png"
         />
         <ProjectsCard
-          title="Chatting App"
+          title="AssignMent"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src="/images/projects/projectTwo.png"
