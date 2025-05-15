@@ -20,19 +20,19 @@ const Projects = () => {
           title="SOCIAL MEDIA CLONE"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src="/images/projects/projectTwo.jpg"
+          src="/images/projects/projectOne.png"
         />
         <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src="/images/projects/projectThree.jpeg"
+          src="/images/projects/projectThree.png"
         />
         <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src="/images/projects/projectOne.jpg"
+          src="/images/projects/projectTwo.png"
         />
       </div>
     </section>
