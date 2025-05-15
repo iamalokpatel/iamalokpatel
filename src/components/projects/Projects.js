@@ -18,20 +18,20 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Airbnb Clone"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" Built an Airbnb Clone using EJS, Node.js, Express.js, and
+                MongoDB with user auth, and property listings."
           src="/images/projects/projectOne.png"
         />
         <ProjectsCard
           title="Spotify UI"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" Built an Spotify UI  using HTML CSS, and
+                JavaScript with listings cards."
           src="/images/projects/projectThree.png"
         />
         <ProjectsCard
           title="AssignMent"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" Built an marketing UI  using Next.js, Taiwind CSS, and
+                JavaScript with Resposiveness."
           src="/images/projects/projectTwo.png"
         />
       </div>
