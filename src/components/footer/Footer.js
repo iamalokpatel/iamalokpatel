@@ -1,27 +1,30 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8 grid grid-cols-1 md:grid-cols-4 gap-15">
+    <div className="w-full py-20 h-auto border-b-[1px] px-4 border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8 grid grid-cols-1 md:grid-cols-4 gap-15">
       <div className="w-full h-full flex flex-col gap-8 ">
-        <img
-          className="flex center justify-center ml-19 mt-[-10px]"
-          src="/images/logo.png"
-          alt="logo"
-          width={80}
-          height={80}
-        />
+        <div className="flex items-center justify-center mt-[-10px]  BannerIcon">
+          <img src="/images/logo.png" alt="logo" width={50} height={50} />
+        </div>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+          <a href="https://github.com/iamalokpatel" target="blank">
+            <span className="bannerIcon">
+              <FaGithub />
+            </span>
+          </a>
+          <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <span className="bannerIcon">
+              <FaTwitter />
+            </span>
+          </a>
+          <a href="https://www.linkedin.com/in/iamalokpatel" target="blank">
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </a>
         </div>
       </div>
       <div className="w-full h-full">

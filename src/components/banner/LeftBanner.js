@@ -35,9 +35,9 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+          I am a Full Stack Developer, working since 2024, with experience
+          <br /> in building web applications using React, Node.js, and MongoDB.
+          <br />I create responsive, and user-friendly Applications
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -49,11 +49,6 @@ const LeftBanner = () => {
             <a href="https://github.com/iamalokpatel" target="blank">
               <span className="bannerIcon">
                 <FaGithub />
-              </span>
-            </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
-              <span className="bannerIcon">
-                <FaFacebookF />
               </span>
             </a>
             <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
@@ -81,9 +76,6 @@ const LeftBanner = () => {
             </span>
             <span className="bannerIcon">
               <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
             </span>
           </div>
         </div>

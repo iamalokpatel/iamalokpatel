@@ -10,13 +10,13 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="w-full h-24 sticky top-0 z-50 bg-[#212428] mx-auto flex justify-between items-center font-[Montserrat] border-b border-gray-600 px-4">
+    <div className="w-full   h-24 sticky top-0 z-50 bg-[#212428] mx-auto flex justify-between items-center font-[Montserrat] border-b border-gray-600 px-4">
       {/* Logo */}
       <div>
         <img
           src="/images/logo.png"
-          width={70}
-          height={70}
+          width={50}
+          height={50}
           alt="logo"
           className="rounded-full"
         />
@@ -53,11 +53,11 @@ const Navbar = () => {
 
       {/* Mobile Menu Panel */}
       {showMenu && (
-        <div className="w-[80%] h-screen overflow-y-scroll fixed top-0 left-0 bg-gray-900 p-4">
+        <div className="w-[50%] h-screen overflow-y-scroll fixed top-0 left-0 bg-gray-900 p-4">
           <div className="flex flex-col gap-8 py-2 relative">
             {/* Logo & Description */}
             <div>
-              <img className="w-32" src={logo} alt="logo" />
+              <img className="w-12" src="/images/logo.png" alt="logo" />
               <p className="text-sm text-gray-400 mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
                 soluta perspiciatis molestias enim cum repellat.

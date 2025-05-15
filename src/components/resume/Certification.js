@@ -2,66 +2,67 @@ import React from "react";
 import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
 
-const Education = () => {
+const Experience = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20 grid grid-cols-1 md:grid-cols-2"
     >
-      {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2022 - 2025</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Graduation</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Certification</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title={
               <>
-                Bachelor of <br />
-                Computer Applications
+                Full Stack <br /> Development
               </>
             }
             subTitle={
               <>
-                Rakshpal Bahadur Management Institute <br />
-                Greater Noida Uttar Pradesh (2022 - 2025)
+                Apna College <br />
+                (sep 2024 - Present)
               </>
             }
-            result="3.90/5"
+            result="ONLINE"
             des={
               <>
-                I have completed a Bachelor of Computer Applications
-                <br /> where I studied subjects like programming, databases
-                networking, and software development.
+                I completed a Full Stack Development course from
+                <br /> my college, where I learned technologies like HTML
+                <br /> CSS, JavaScript, React, Node.js, and MongoDB.
               </>
             }
           />
         </div>
       </div>
-      {/* part Two */}
-
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2020 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Intermidiate</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Certification</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Intermidiate Physics Chemistry Mathematics"
-            subTitle={
+            title={
               <>
-                Rajmangal Singh Inter College <br />
-                Baghawar Azamgarh (2019 - 2021)
+                Frontend
+                <br /> Development
               </>
             }
-            result="4.03/5"
+            subTitle={
+              <>
+                QSpiders Noida Training <br /> Placement Institute (may 2024 -
+                jul 2024)
+              </>
+            }
+            result="OFFLINE"
             des={
               <>
-                I completed my 12th with Physics, Chemistry, and <br />
-                Mathematics as my core subjects, which helped <br /> build
-                strong analytical and logical thinking skills.
+                I also completed a Frontend Development course <br />I where
+                focused on building user interfaces using <br />
+                HTML, CSS, JavaScript, and React.
               </>
             }
           />
@@ -71,4 +72,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Experience;

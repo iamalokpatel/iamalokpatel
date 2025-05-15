@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import Title from "../layouts/Title";
 import Education from "./Education";
 import Skills from "./Skills";
-import Achievement from "./Achievement";
-import Experience from "./Experience";
+import Achievement from "./Application";
+import Experience from "./Certification";
 
 const Resume = () => {
   const [educationData, setEducationData] = useState(true);
@@ -12,7 +12,10 @@ const Resume = () => {
   const [experienceData, setExperienceData] = useState(false);
   const [achievementData, setAchievementData] = useState(false);
   return (
-    <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
+    <section
+      id="resume"
+      className="w-full py-20 px-4 border-b-[1px] border-b-black"
+    >
       <div className="flex justify-center items-center text-center">
         <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
       </div>
@@ -59,7 +62,7 @@ const Resume = () => {
                 : "border-transparent"
             } resumeLi`}
           >
-            Experience
+            Certifications
           </li>
           <li
             onClick={() =>
@@ -74,7 +77,7 @@ const Resume = () => {
                 : "border-transparent"
             } resumeLi`}
           >
-            Achievements
+            Applications
           </li>
         </ul>
       </div>
