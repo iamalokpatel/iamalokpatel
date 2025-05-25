@@ -16,10 +16,6 @@ const ContactLeft = () => {
         <p className="text-lg font-normal text-gray-400  tracking-tighter font-serif opacity-80 group-hover:opacity-100">
           Full Stack Developer
         </p>
-        <p className="text-gray-400 tracking-tight font-serif opacity-80 text-lg group-hover:opacity-100">
-          I am a passionate and curious learner
-          <br /> who enjoys building creative solutions through technology.
-        </p>
         <p className="text-base text-gray-400 flex items-center gap-2  group-hover:opacity-100">
           Phone:{" "}
           <span className="text-lightText opacity-75  group-hover:opacity-100">
