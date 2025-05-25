@@ -7,7 +7,13 @@ const Footer = () => {
     <div className="w-full py-20 h-auto border-b-[1px] px-4 border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8 grid grid-cols-1 md:grid-cols-4 gap-15">
       <div className="w-full h-full flex flex-col gap-8 ">
         <div className="flex items-center justify-center mt-[-10px]  BannerIcon">
-          <img src="/images/logo.png" alt="logo" width={50} height={50} />
+          <img
+            src="/images/logo.png"
+            className="opacity-75 hover:opacity-100 transition-opacity duration-300"
+            alt="logo"
+            width={60}
+            height={60}
+          />
         </div>
         <div className="flex gap-4">
           <a href="https://github.com/iamalokpatel" target="blank">

@@ -15,10 +15,10 @@ const Navbar = () => {
       <div>
         <img
           src="/images/logo.png"
-          width={50}
-          height={50}
+          width={80}
+          height={80}
           alt="logo"
-          className="rounded-full"
+          className="rounded-full cursor-pointer transition-transform duration-500 hover:scale-150 hover:-translate-y-1 opacity-75 hover:opacity-100"
         />
       </div>
 

@@ -21,18 +21,24 @@ const Projects = () => {
           des=" Built an Airbnb Clone using EJS, Node.js, Express.js, and
                 MongoDB with user auth, and property listings."
           src="/images/projects/projectOne.png"
+          gitLink="https://github.com/iamalokpatel/ZerodhaUi"
+          liveLink="https://iamalokpatel.github.io/ZerodhaUi/"
         />
         <ProjectsCard
           title="Spotify UI"
           des=" Built an Spotify UI  using HTML CSS, and
                 JavaScript with listings cards."
           src="/images/projects/projectThree.png"
+          gitLink="https://github.com/iamalokpatel"
+          liveLink="https://github.com/iamalokpatel"
         />
         <ProjectsCard
           title="AssignMent"
           des=" Built an marketing UI  using Next.js, Taiwind CSS, and
                 JavaScript with Resposiveness."
           src="/images/projects/projectTwo.png"
+          gitLink="https://github.com/iamalokpatel"
+          liveLink="https://github.com/iamalokpatel"
         />
       </div>
     </section>
