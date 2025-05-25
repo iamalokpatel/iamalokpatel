@@ -11,10 +11,10 @@ const ResumeCard = ({ title, subTitle, result, des }) => {
       <div className="w-full h-[350px] bg-black bg-opacity-20 hover:bg-opacity-30 duration-300  rounded-lg p-8 lgl:px-10 flex flex-col justify-center gap-6 lgl:gap-10 shadow-shadowOne">
         <div className="flex flex-col lgl:flex-row justify-between gap-4 lgl:gap-0 lgl:items-center   grid grid-cols-1 md:grid-cols-3   ">
           <div className="col-span-2">
-            <h3 className="text-xl md:text-2xl font-semibold group-hover:text-white duration-300">
+            <p className="text-xl md:text-2xl tracking-tighter font-serif opacity-70 group-hover:opacity-100 group-hover:text-white duration-300">
               {title}
-            </h3>
-            <p className="text-sm mt-2 text-gray-400 group-hover:text-white duration-300">
+            </p>
+            <p className="mt-2 text-gray-400 group-hover:text-white duration-300 tracking-tight font-serif opacity-75 text-sm text-gray-400 group-hover:text-gray-300 duration-300">
               {subTitle}
             </p>
           </div>
@@ -24,7 +24,7 @@ const ResumeCard = ({ title, subTitle, result, des }) => {
             </p>
           </div>
         </div>
-        <p className="text-sm md:text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300">
+        <p className="tracking-tight font-serif opacity-75 text-sm text-gray-400 group-hover:text-gray-300 duration-300">
           {des}
         </p>
       </div>

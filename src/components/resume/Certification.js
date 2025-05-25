@@ -7,12 +7,11 @@ const Experience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20 grid grid-cols-1 md:grid-cols-2"
+      className="w-full flex flex-col lgl:flex-row mt-10 gap-10 lgl:gap-20 grid grid-cols-1 md:grid-cols-2"
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Certification</h2>
+          <p className="text-md text-designColor tracking-[4px]">2010 - 2022</p>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
@@ -24,15 +23,15 @@ const Experience = () => {
             subTitle={
               <>
                 Apna College <br />
-                (sep 2024 - Present)
+                (sep 2024 - mar 2025)
               </>
             }
             result="ONLINE"
             des={
               <>
-                I completed a Full Stack Development course from
-                <br /> my college, where I learned technologies like HTML
-                <br /> CSS, JavaScript, React, Node.js, and MongoDB.
+                I completed a Full Stack Development course from my college,
+                where <br />I learned technologies like HTML CSS, JavaScript,
+                React, Node.js, and MongoDB.
               </>
             }
           />
@@ -40,8 +39,7 @@ const Experience = () => {
       </div>
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Certification</h2>
+          <p className="text-md text-designColor tracking-[4px]">2001 - 2020</p>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
@@ -53,16 +51,15 @@ const Experience = () => {
             }
             subTitle={
               <>
-                QSpiders Noida Training <br /> Placement Institute (may 2024 -
-                jul 2024)
+                QSpiders Center <br /> (may 2024 - jul 2024)
               </>
             }
             result="OFFLINE"
             des={
               <>
-                I also completed a Frontend Development course <br />I where
-                focused on building user interfaces using <br />
-                HTML, CSS, JavaScript, and React.
+                I also completed a Frontend Development course I where <br />
+                focused on building user interfaces using HTML, CSS, JavaScript,
+                and React.
               </>
             }
           />

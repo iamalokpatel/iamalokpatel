@@ -21,20 +21,20 @@ const LeftBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
-        <h1 className="text-6xl font-bold text-white">
+        <h2 className=" text-md font-serif ">WELCOME TO MY WORLD</h2>
+        <p className="text-[27px] font-serif  text-white">
           Hi, I'm{"  "}
           <span className="text-designColor capitalize">Alok Patel</span>
-        </h1>
-        <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+        </p>
+        <p className="text-4xl font-serif  text-white">
+          A <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
             cursorColor="#ff014f"
           />
-        </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        </p>
+        <p className="text-xs font-serif leading-6 tracking-wide">
           I am a Full Stack Developer, working since 2024, with experience
           <br /> in building web applications using React, Node.js, and MongoDB.
           <br />I create responsive, and user-friendly Applications
@@ -51,7 +51,7 @@ const LeftBanner = () => {
                 <FaGithub />
               </span>
             </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://www.linkedin.com/in/iamalokpatel" target="blank">
               <span className="bannerIcon">
                 <FaTwitter />
               </span>

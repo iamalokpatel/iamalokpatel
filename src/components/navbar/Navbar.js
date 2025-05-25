@@ -13,13 +13,15 @@ const Navbar = () => {
     <div className="w-full   h-24 sticky top-0 z-50 bg-[#212428] mx-auto flex justify-between items-center font-[Montserrat] border-b border-gray-600 px-4">
       {/* Logo */}
       <div>
-        <img
-          src="/images/logo.png"
-          width={80}
-          height={80}
-          alt="logo"
-          className="rounded-full cursor-pointer transition-transform duration-500 hover:scale-150 hover:-translate-y-1 opacity-75 hover:opacity-100"
-        />
+        <Link to="home" spy={true} smooth={true} offset={-70} duration={500}>
+          <img
+            src="/images/logo.png"
+            width={80}
+            height={80}
+            alt="logo"
+            className="rounded-full cursor-pointer transition-transform duration-500 hover:scale-106 opacity-75 hover:opacity-100"
+          />
+        </Link>
       </div>
 
       {/* Nav Links - Show only on medium and up */}

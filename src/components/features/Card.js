@@ -18,12 +18,14 @@ const Card = ({ title, des, icon }) => {
               </>
             )}
           </div>
-          <div className="flex flex-col gap-6">
-            <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
+          <div className="flex flex-col gap-6 group-hover:opacity-90">
+            <p className="text-lg md:text-xl font-bold tracking-tighter font-serif opacity-60 group-hover:opacity-90 ">
               {title}
-            </h2>
-            <p className="base">{des}</p>
-            <span className="text-2xl text-designColor">
+            </p>
+            <div className="base tracking-tight font-serif opacity-75 text-sm group-hover:opacity-100">
+              {des}
+            </div>
+            <span className="text-2xl text-designColor group-hover:opacity-90">
               <HiArrowRight />
             </span>
           </div>
