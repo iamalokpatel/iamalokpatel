@@ -182,3 +182,16 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+.bg-bodyColor {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+}
+
+.from-bodyColor {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+}
+
+.border-designColor {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 1 79 / var(--tw-border-opacity));
+}
